@@ -273,7 +273,6 @@
 	function getLatestRelease() {
 	   $.getJSON("https://api.github.com/repos/NecronomiconCoding/NecroBot/tags").done(function (json) {
 	        var release = json[0];
-	        console.log(release);
 	        var downloadURL = "https://github.com/NecronomiconCoding/NecroBot/releases/tag/"
 	        downloadURL += release.name;
 	        $("#necro-dl").attr("href", downloadURL);
