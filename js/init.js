@@ -273,10 +273,10 @@
 	function getLatestRelease() {
 	   $.getJSON("https://api.github.com/repos/NecronomiconCoding/NecroBot/tags").done(function (json) {
 	        var release = json[0];
-	        var downloadURL = "https://github.com/NecronomiconCoding/NecroBot/releases/tag/"
+	        var downloadURL = "https://github.com/NecronomiconCoding/NecroBot/releases/tag/";
 	        downloadURL += release.name;
-	        $("#necro-dl").attr("href", downloadURL);
-	        $("#necro-dl").text("Download " + release.name);
+	        $(".necro-dl]").attr("href", downloadURL);
+	        $(".necro-dl]").text("Download " + release.name);
 	   });
 	}
 
