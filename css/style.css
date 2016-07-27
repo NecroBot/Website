@@ -289,7 +289,7 @@ footer.page-footer {
 
 
 .brand-logo img {
-    width: 350px!important;
+    width: 32%;
     margin-top: 8px;
 }
 
@@ -312,7 +312,7 @@ footer.page-footer {
         text-align: center;
     }
     .brand-logo img{
-        max-width: 80%;
+        max-width: 50%;
         margin-top: 6px;
         text-align: center;
     }
