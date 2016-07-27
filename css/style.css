@@ -287,15 +287,16 @@ footer.page-footer {
     margin-top: 0px !important
 }
 
+#logo-container>img{width:350px!important;}
 
 .brand-logo img {
-    width: 32%;
+    width: 22%;
     margin-top: 8px;
 }
 
 @media only screen and (min-width:1156px) and (max-width: 1393px) {
     .brand-logo img{
-        max-width: 30%;
+        max-width: 20%;
         margin-top: 10px;
     }
 }
